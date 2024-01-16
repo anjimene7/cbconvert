@@ -1,5 +1,7 @@
 ## CBconvert
 
+Changes from main repo are the Dockerfile mostly, which is not optimized with regards of size and basically does what I need frmo converting pdf or cbr to cbz.
+
 ### Introduction
 
 CBconvert is a [Comic Book](http://en.wikipedia.org/wiki/Comic_Book_Archive_file) converter.

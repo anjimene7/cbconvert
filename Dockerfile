@@ -81,7 +81,8 @@ RUN go install -tags static github.com/gen2brain/cbconvert/cmd/cbconvert@latest
 
 RUN useradd -ms /bin/bash cbuser
 
-RUN mkdir /app/output && chown cbuser /app/output && chmod +x /app/convert.sh
+RUN mkdir /app/output && chown cbuser /app/output && chmod +x /app/convert.sh && \
+    rm -rf *.tar.gz && rm -rf highway* lcms* libheif* libjxl* cmake* ImageMagick*
 
 USER cbuser
 # Run
