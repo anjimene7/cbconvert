@@ -1,6 +1,6 @@
 ## CBconvert
 
-Changes from main repo are the Dockerfile mostly, which is not optimized with regards of size and basically does what I need frmo converting pdf or cbr to cbz.
+Changes from main repo are the Dockerfile mostly, which is not optimized with regards of size and basically does what I need from converting pdf or cbr to cbz.
 
 ### Introduction
 
